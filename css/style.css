@@ -1,0 +1,103 @@
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: center;
+    background-color: #645d5d;
+
+}
+.card_container{
+    width: 350px;
+    height: 700px;
+    background-color: #1e1f26; 
+    box-shadow: 5px 5px 50px 5px #1e1f26;
+}
+
+.profile_img{
+    position: relative;
+    width: 100%;
+    height: 350px;
+    background-image: url(../img/30740379_2014274418793008_5089690121553313792_n.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.profile_img ul{
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.profile_img ul li{
+    width: 40px;
+    height: 40px;
+    background-color: none;
+    line-height: 40px;
+    text-align: center;
+    transform: rotateY(90deg);
+    transition: 0.5s;
+}
+
+.profile_img:hover ul li{
+    transform: rotateY(0deg);
+}
+
+.profile_img ul li a{
+    color: #110e0e;
+
+
+}
+.profile_img ul li a:hover{
+    color: white;
+}
+
+.text_content{
+    margin: 0 20px;
+    color:white;
+}
+
+h1{
+    font-size: 35px;
+    font-weight: 400;
+}
+
+h2{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.text_description{
+    font-size: 15px;
+    font-weight: 400;
+    color: #9b9b9b;
+}
+
+.text_btn{
+    width: 140px;
+    border-radius: 5px;
+    text-align: center;
+    margin-left: 25%;
+}
+.text_btn button{
+    padding: 10px 10px 10px 10px;
+    margin-top:15px;
+    color: white;
+    background-color: #5a5a5a;
+    transform: rotateY(90deg);
+    transition: 1s;
+}
+.text_btn:hover button{
+    background-color:#534e4e;
+    transform: rotateY(0deg);
+
+}
+
+
+h3{
+    font-size: 15px;
+    font-weight: 400;
+    color: #ef4141;
+    letter-spacing: 1px;
+    
+}
